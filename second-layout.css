@@ -17,8 +17,17 @@
 
 @media screen and (max-width: 600px) {
     .second-layout {
-        background-color: white;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: unset;
     }
+
+    header,
+    footer,
+    aside,
+    nav,
+    main,
+    .left-side,
+    .right-side 
 }
 
 header,
